@@ -149,10 +149,6 @@ start /min cmd /c "cd steadfast-websocket && python main.py"
 REM Wait for a few seconds to allow the app to start
 timeout /t 5
 
-REM Open the default browser to the API's URL
-echo Opening browser to API's URL...
-start http://localhost:3000
-
 REM Open the default browser to the app's URL
 echo Opening browser to app's URL...
 start http://localhost:5173
